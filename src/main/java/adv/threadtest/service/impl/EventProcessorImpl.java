@@ -53,24 +53,28 @@ public class EventProcessorImpl implements EventProcessor {
     }
 
     private List<EventDTO> doMultiThread(Map<String, List<EventStore>> aggregateEventMap) {
-        List<Future<List<EventDTO>>> futureList = new ArrayList<>();
         List<EventDTO> eventDTOList = new ArrayList<>();
         try {
-            ExecutorService executorService = Executors.newFixedThreadPool(aggregateEventMap.size());
-            for (Map.Entry<String, List<EventStore>> entry : aggregateEventMap.entrySet()) {
-                MultiThreadProcessor multiThreadProcessor = new MultiThreadProcessor(vehicleRepository, entry.getValue());
-                Future<List<EventDTO>> future = executorService.submit(multiThreadProcessor);
-                futureList.add(future);
-            }
-            for (Future<List<EventDTO>> future : futureList) {
-                eventDTOList.addAll(future.get());
-            }
-            executorService.shutdown();
+            execute(eventDTOList, aggregateEventMap);
         } catch (InterruptedException | ExecutionException e) {
             Thread.currentThread().interrupt();
             LOGGER.error("Multi Thread Exception: ", e);
         }
         return eventDTOList;
+    }
+
+    private void execute(List<EventDTO> eventDTOList, Map<String, List<EventStore>> aggregateEventMap) throws ExecutionException, InterruptedException {
+        List<Future<List<EventDTO>>> futureList = new ArrayList<>();
+        ExecutorService executorService = Executors.newFixedThreadPool(aggregateEventMap.size());
+        for (Map.Entry<String, List<EventStore>> entry : aggregateEventMap.entrySet()) {
+            MultiThreadProcessor multiThreadProcessor = new MultiThreadProcessor(vehicleRepository, entry.getValue());
+            Future<List<EventDTO>> future = executorService.submit(multiThreadProcessor);
+            futureList.add(future);
+        }
+        for (Future<List<EventDTO>> future : futureList) {
+            eventDTOList.addAll(future.get());
+        }
+        executorService.shutdown();
     }
 
     private void showEvent(List<EventDTO> eventDTOList) {
