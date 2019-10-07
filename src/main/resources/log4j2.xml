@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<Configuration>
+		<Appenders>
+	      	<RollingFile name="rollingFile"
+	                 append="true"
+	                 fileName="logs/ThreadTest.log"
+	                 filePattern="logs/ThreadTest-%d{dd-MM-yyyy}-%i.log.gz">
+	      		<PatternLayout pattern="%d %-5p [%t] %C{2} (%F:%L) - %m%n"/>
+	         	<Policies>
+	         		<TimeBasedTriggeringPolicy />
+					<SizeBasedTriggeringPolicy size="50 MB"/>
+	      		</Policies>
+	      		<DefaultRolloverStrategy max="5"/>
+	    	</RollingFile>
+	        <Console name="STDOUT" target="SYSTEM_OUT">
+				<PatternLayout pattern="%d %-5p [%t] %C{2} (%F:%L) - %m%n"/>
+			</Console>
+		</Appenders>
+		<Loggers>
+			<Logger name="org.hibernate" level="WARN">
+				<AppenderRef ref="rollingFile"/>
+			</Logger>
+			<Logger name="org.hibernate.engine" level="WARN">
+				<AppenderRef ref="rollingFile"/>
+			</Logger>
+			<Logger name="org.springframework.web.servlet.mvc" level="TRACE" >
+				<AppenderRef ref="rollingFile"/>
+			</Logger>
+			<Logger name="adv.threadtest" level="INFO" additivity="false">
+				<AppenderRef ref="rollingFile" />
+				<AppenderRef ref="STDOUT" />
+			</Logger>
+			<Root level="INFO">
+				<AppenderRef ref="rollingFile"/>
+			</Root>
+		</Loggers>
+	</Configuration>

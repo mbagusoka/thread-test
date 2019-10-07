@@ -1,0 +1,52 @@
+2019-10-07 16:22:15,478 INFO  [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-07 16:22:15,578 INFO  [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:182) - Finished Spring Data repository scanning in 92ms. Found 2 repository interfaces.
+2019-10-07 16:22:15,837 INFO  [main] hikari.HikariDataSource (HikariDataSource.java:110) - HikariPool-1 - Starting...
+2019-10-07 16:22:15,898 INFO  [main] hikari.HikariDataSource (HikariDataSource.java:123) - HikariPool-1 - Start completed.
+2019-10-07 16:22:16,501 INFO  [main] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:415) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-07 16:25:17,020 INFO  [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-07 16:25:17,183 INFO  [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:182) - Finished Spring Data repository scanning in 150ms. Found 2 repository interfaces.
+2019-10-07 16:25:17,596 INFO  [main] hikari.HikariDataSource (HikariDataSource.java:110) - HikariPool-1 - Starting...
+2019-10-07 16:25:17,693 INFO  [main] hikari.HikariDataSource (HikariDataSource.java:123) - HikariPool-1 - Start completed.
+2019-10-07 16:25:18,599 INFO  [main] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:415) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-07 16:25:19,085 INFO  [Thread-7] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:597) - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-07 16:26:05,840 INFO  [main] boot.StartupInfoLogger (StartupInfoLogger.java:50) - Starting ThreadTestApplication on oka-330S-15IKB with PID 31932 (/home/oka/Workspace/thread-test/target/classes started by oka in /home/oka/Workspace/thread-test)
+2019-10-07 16:26:05,843 INFO  [main] boot.SpringApplication (SpringApplication.java:648) - No active profile set, falling back to default profiles: default
+2019-10-07 16:26:06,287 INFO  [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-07 16:26:06,405 INFO  [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:182) - Finished Spring Data repository scanning in 109ms. Found 2 repository interfaces.
+2019-10-07 16:26:06,753 INFO  [main] hikari.HikariDataSource (HikariDataSource.java:110) - HikariPool-1 - Starting...
+2019-10-07 16:26:06,829 INFO  [main] hikari.HikariDataSource (HikariDataSource.java:123) - HikariPool-1 - Start completed.
+2019-10-07 16:26:07,492 INFO  [main] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:415) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-07 16:26:07,751 INFO  [main] boot.StartupInfoLogger (StartupInfoLogger.java:59) - Started ThreadTestApplication in 2.157 seconds (JVM running for 2.892)
+2019-10-07 16:27:48,749 INFO  [main] boot.StartupInfoLogger (StartupInfoLogger.java:50) - Starting ThreadTestApplication on oka-330S-15IKB with PID 32222 (/home/oka/Workspace/thread-test/target/classes started by oka in /home/oka/Workspace/thread-test)
+2019-10-07 16:27:48,754 INFO  [main] boot.SpringApplication (SpringApplication.java:648) - No active profile set, falling back to default profiles: default
+2019-10-07 16:27:49,190 INFO  [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-07 16:27:49,289 INFO  [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:182) - Finished Spring Data repository scanning in 93ms. Found 2 repository interfaces.
+2019-10-07 16:27:49,563 INFO  [main] hikari.HikariDataSource (HikariDataSource.java:110) - HikariPool-1 - Starting...
+2019-10-07 16:27:49,634 INFO  [main] hikari.HikariDataSource (HikariDataSource.java:123) - HikariPool-1 - Start completed.
+2019-10-07 16:27:50,238 INFO  [main] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:415) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-07 16:27:50,463 INFO  [main] boot.StartupInfoLogger (StartupInfoLogger.java:59) - Started ThreadTestApplication in 1.966 seconds (JVM running for 2.691)
+2019-10-07 16:31:37,222 INFO  [main] boot.StartupInfoLogger (StartupInfoLogger.java:50) - Starting ThreadTestApplication on oka-330S-15IKB with PID 339 (/home/oka/Workspace/thread-test/target/classes started by oka in /home/oka/Workspace/thread-test)
+2019-10-07 16:31:37,225 INFO  [main] boot.SpringApplication (SpringApplication.java:648) - No active profile set, falling back to default profiles: default
+2019-10-07 16:31:37,577 INFO  [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-07 16:31:37,677 INFO  [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:182) - Finished Spring Data repository scanning in 93ms. Found 2 repository interfaces.
+2019-10-07 16:31:37,930 INFO  [main] hikari.HikariDataSource (HikariDataSource.java:110) - HikariPool-1 - Starting...
+2019-10-07 16:31:37,996 INFO  [main] hikari.HikariDataSource (HikariDataSource.java:123) - HikariPool-1 - Start completed.
+2019-10-07 16:31:38,589 INFO  [main] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:415) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-07 16:31:38,813 INFO  [main] boot.StartupInfoLogger (StartupInfoLogger.java:59) - Started ThreadTestApplication in 1.799 seconds (JVM running for 2.384)
+2019-10-07 16:31:38,941 INFO  [main] threadtest.ThreadTestApplication (ThreadTestApplication.java:31) - AAAAAAAAAAAAAAAAAAAAAA
+2019-10-07 16:32:57,964 INFO  [main] boot.StartupInfoLogger (StartupInfoLogger.java:50) - Starting ThreadTestApplication on oka-330S-15IKB with PID 480 (/home/oka/Workspace/thread-test/target/classes started by oka in /home/oka/Workspace/thread-test)
+2019-10-07 16:32:57,967 INFO  [main] boot.SpringApplication (SpringApplication.java:648) - No active profile set, falling back to default profiles: default
+2019-10-07 16:32:58,317 INFO  [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-07 16:32:58,417 INFO  [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:182) - Finished Spring Data repository scanning in 93ms. Found 2 repository interfaces.
+2019-10-07 16:32:58,750 INFO  [main] hikari.HikariDataSource (HikariDataSource.java:110) - HikariPool-1 - Starting...
+2019-10-07 16:32:58,823 INFO  [main] hikari.HikariDataSource (HikariDataSource.java:123) - HikariPool-1 - Start completed.
+2019-10-07 16:32:59,451 INFO  [main] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:415) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-07 16:32:59,691 INFO  [main] boot.StartupInfoLogger (StartupInfoLogger.java:59) - Started ThreadTestApplication in 1.924 seconds (JVM running for 2.575)
+2019-10-07 16:37:18,922 INFO  [main] boot.StartupInfoLogger (StartupInfoLogger.java:50) - Starting ThreadTestApplication on oka-330S-15IKB with PID 730 (/home/oka/Workspace/thread-test/target/classes started by oka in /home/oka/Workspace/thread-test)
+2019-10-07 16:37:18,926 INFO  [main] boot.SpringApplication (SpringApplication.java:648) - No active profile set, falling back to default profiles: default
+2019-10-07 16:37:19,324 INFO  [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-07 16:37:19,433 INFO  [main] config.RepositoryConfigurationDelegate (RepositoryConfigurationDelegate.java:182) - Finished Spring Data repository scanning in 101ms. Found 2 repository interfaces.
+2019-10-07 16:37:19,790 INFO  [main] hikari.HikariDataSource (HikariDataSource.java:110) - HikariPool-1 - Starting...
+2019-10-07 16:37:19,878 INFO  [main] hikari.HikariDataSource (HikariDataSource.java:123) - HikariPool-1 - Start completed.
+2019-10-07 16:37:20,494 INFO  [main] jpa.AbstractEntityManagerFactoryBean (AbstractEntityManagerFactoryBean.java:415) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-07 16:37:20,722 INFO  [main] boot.StartupInfoLogger (StartupInfoLogger.java:59) - Started ThreadTestApplication in 2.032 seconds (JVM running for 2.645)
